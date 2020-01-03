@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1;
+    height: 85vh;
+}
+
+.button-one {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+.button-two {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 50%;
+
+} 
+
+.prompt {
+    height: 150px;
+    background-color: gray;
+    text-align: center;
+}
+
+.prompt > p {
+    padding-top: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
